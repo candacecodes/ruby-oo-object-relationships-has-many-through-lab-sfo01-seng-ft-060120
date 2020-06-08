@@ -18,8 +18,9 @@ class Patient
   
   def doctors
     appointments.map do |appt| 
+            binding.pry
       appointments.doctor 
-      binding.pry
+
     end 
   end 
   
